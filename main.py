@@ -228,7 +228,7 @@ def score(bracket):
         for region in range(4):
             for team in range(len(bracket[round][0])):
                 if bracket[round][region][team] == key[round][region][team]:
-                    total += team * 2**round
+                    total += bracket[round][region][team] * 2**round
     return total
 
 
