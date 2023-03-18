@@ -8,8 +8,8 @@ key = [
     ],
     [
         # Round 2 (Sweet 16)
-        [0, 0, 0, 0], # South
-        [0, 0, 0, 0], # East
+        [0, 5, 0, 0], # South
+        [0, 4, 0, 0], # East
         [0, 0, 0, 0], # Midwest
         [0, 0, 0, 0], # West
     ],
@@ -149,10 +149,10 @@ brackets = {
         ],
         [
             # Round 3 (Elite 8)
-            [5, 11], # South
-            [4, 6], # East
-            [1, 3], # Midwest
-            [8, 3], # West
+            [1, 2], # South
+            [5, 3], # East
+            [5, 3], # Midwest
+            [5, 2], # West
         ],
         [
             # Round 4 (Final 4)
@@ -182,7 +182,7 @@ brackets = {
             [1, 9, 12, 13, 11, 14, 10, 2], # South
             [1, 8, 12, 4, 11, 3, 7, 2], # East
             [1, 9, 12, 13, 11, 3, 10, 2], # Midwest
-            [1, 8, 12, 13, 11, 3, 10, 2], # West
+            [1, 8, 12, 13, 11, 3, 10, 15], # West
         ],
         [
             # Round 2 (Sweet 16)
