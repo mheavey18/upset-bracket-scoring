@@ -149,10 +149,10 @@ brackets = {
         ],
         [
             # Round 3 (Elite 8)
-            [5, 11], # South
-            [4, 6], # East
-            [1, 3], # Midwest
-            [8, 3], # West
+            [1, 2], # South
+            [5, 3], # East
+            [5, 3], # Midwest
+            [5, 2], # West
         ],
         [
             # Round 4 (Final 4)
@@ -228,7 +228,7 @@ def score(bracket):
         for region in range(4):
             for team in range(len(bracket[round][0])):
                 if bracket[round][region][team] == key[round][region][team]:
-                    total += team * 2**round
+                    total += bracket[round][region][team] * 2**round
     return total
 
 
