@@ -8,10 +8,10 @@ key = [
     ],
     [
         # Round 2 (Sweet 16)
-        [0, 5, 0, 0], # South
+        [1, 5, 0, 15], # South
         [0, 4, 0, 0], # East
-        [0, 0, 0, 0], # Midwest
-        [0, 0, 0, 0], # West
+        [1, 0, 0, 2], # Midwest
+        [8, 0, 0, 2], # West
     ],
     [
         # Round 3 (Elite 8)
