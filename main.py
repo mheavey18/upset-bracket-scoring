@@ -8,10 +8,10 @@ key = [
     ],
     [
         # Round 2 (Sweet 16)
-        [1, 5, 0, 15], # South
-        [0, 4, 0, 0], # East
-        [1, 0, 0, 2], # Midwest
-        [8, 0, 0, 2], # West
+        [1, 5, 6, 15], # South
+        [9, 4, 3, 7], # East
+        [1, 5, 3, 2], # Midwest
+        [8, 4, 3, 2], # West
     ],
     [
         # Round 3 (Elite 8)
@@ -218,6 +218,50 @@ brackets = {
             [0], # East
             [0], # Midwest
             [8], # West
+        ],
+    ],
+    "chalk": [
+        [
+            # Round 1
+            [1, 8, 5, 4, 6, 3, 7, 2], # South
+            [1, 8, 5, 4, 6, 3, 7, 2], # East
+            [1, 8, 5, 4, 6, 3, 7, 2], # Midwest
+            [1, 8, 5, 4, 6, 3, 7, 2], # West
+        ],
+        [
+            # Round 2 (Sweet 16)
+            [1, 4, 3, 2], # South
+            [1, 4, 3, 2], # East
+            [1, 4, 3, 2], # Midwest
+            [1, 4, 3, 2], # West
+        ],
+        [
+            # Round 3 (Elite 8)
+            [1, 2], # South
+            [1, 2], # East
+            [1, 2], # Midwest
+            [1, 2], # West
+        ],
+        [
+            # Round 4 (Final 4)
+            [1], # South
+            [1], # East
+            [1], # Midwest
+            [1], # West
+        ],
+        [
+            # Round 5 (Finals)
+            [1], # South
+            [0], # East
+            [1], # Midwest
+            [0], # West
+        ],
+        [
+            # Round 6 (Champion)
+            [1], # South
+            [0], # East
+            [0], # Midwest
+            [0], # West
         ],
     ],
 }
