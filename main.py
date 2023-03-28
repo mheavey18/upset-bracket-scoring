@@ -15,17 +15,17 @@ key = [
     ],
     [
         # Round 3 (Elite 8)
-        [0, 0], # South
-        [0, 0], # East
-        [0, 0], # Midwest
-        [0, 0], # West
+        [5, 6], # South
+        [9, 3], # East
+        [5, 2], # Midwest
+        [4, 3], # West
     ],
     [
         # Round 4 (Final 4)
-        [0], # South
-        [0], # East
-        [0], # Midwest
-        [0], # West
+        [5], # South
+        [9], # East
+        [4], # Midwest
+        [4], # West
     ],
     [
         # Round 5 (Finals)
